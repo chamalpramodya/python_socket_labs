@@ -1,7 +1,7 @@
 import socket   # import the schoke module to use OS's networking api
 
 HOST ='127.0.0.1'   # localhost loopback interface if need other machinse use 0.0.0.0
-PORT = 62000    # USE ANYTHING above 1024
+PORT = 60000    # USE ANYTHING above 1024
 
 with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:     # socket.socket() is also fine if want can declare this soc as 1pv4 and TCP stream ased 
     print("socket is created ")
