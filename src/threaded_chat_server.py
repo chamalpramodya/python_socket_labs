@@ -4,7 +4,7 @@ import threading
 import time
 
 HOST = '127.0.0.1'
-PORT = 60113
+PORT = 44000
 
 clients = [] # list of conn,addr
 clients_lock = threading.Lock()
